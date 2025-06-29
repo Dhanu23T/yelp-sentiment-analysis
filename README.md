@@ -1,7 +1,7 @@
 # Yelp Review Sentiment Intelligence Project
 
 ##  Overview
-This project showcases a complete cloud-native analytics workflow that transforms raw Yelp review data into structured insights using **Snowflake**, **Python UDF**, and **SQL**. It simulates a real-world business scenario where stakeholders need to understand customer sentiment, business performance, and reviewer behavior at scale.
+This project showcases a complete cloud-native analytics workflow that transforms raw Yelp review data into structured insights using **Snowflake**, **Python UDF**, and **SQL**. It simulates a real-world business scenario where stakeholders need to understand customer sentiment, business performance, and reviewer behavior at scale. Link to downlaod the dataset: https://business.yelp.com/data/resources/open-dataset/
 
 ##  Goal
 Enable data-driven decisions by:
@@ -31,10 +31,6 @@ Enable data-driven decisions by:
 5. Create and apply the Python UDF to generate sentiment classification  
 6. Run the analytical SQL queries to derive business insights  
 
-##  Data Flow
-
----
-
 ##  SQL Insights Delivered
 1. Business count by category  
 2. Top 10 users reviewing restaurants  
@@ -47,7 +43,7 @@ Enable data-driven decisions by:
 9. Top 10 reviewers + reviewed businesses  
 10. Businesses with highest number of positive sentiment reviews  
 
- _All queries are available in [`/sql/analytics_queries.sql`](./sql/analytics_queries.sql)_
+ _All queries are available in Sql_analytic_queries.pdf
 
 
 ##  Outcomes
